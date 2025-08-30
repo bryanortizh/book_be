@@ -1,0 +1,28 @@
+{
+  "name": "cavoshcafe-be",
+  "autor": "Bryan Ortiz",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "develop": "npm run build && npm run start"
+  },
+  "author": "Bryan Ortiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^16.7.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
